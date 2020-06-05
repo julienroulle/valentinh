@@ -1060,7 +1060,7 @@ p {
     margin-top: 25px; }
     .call_to_action_box .call_to_action_content .action_title {
       color: #fff;
-      font-size: 35px;
+      font-size: 25px;
       font-weight: 600; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .call_to_action_box .call_to_action_content .action_title {
