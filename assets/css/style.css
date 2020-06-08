@@ -783,7 +783,7 @@ p {
       color: #00A78E; }
 
 .header_hero_shape {
-  background-image: url("../images/hero.png");
+  /* background-image: url("../images/hero.png"); */
   background-size: cover;
   position: absolute;
   top: 0;
@@ -791,9 +791,22 @@ p {
   width: 50%;
   height: 100%;
   z-index: -1; }
+  .header_hero_shape::before {
+    position: absolute;
+    content: '';
+    width: 1000%;
+    height: 100%;
+    background-color: #00A78E;
+    -webkit-transform: skewX(20deg);
+    -moz-transform: skewX(20deg);
+    -ms-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+    transform: skewX(20deg);
+    top: 0;
+    left: 0; }
 
 .header_hero_content .header_sub_title {
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 600;
   
   color: #00A78E;
